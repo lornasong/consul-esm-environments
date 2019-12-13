@@ -27,7 +27,7 @@ sudo chmod a+w /etc/consul.d
 
 ## CONSUL_ESM
 
-echo "Determining Consul version to install ..."
+echo "Determining Consul-ESM version to install ..."
 if [ -z "$CONSUL_ESM_VERSION" ]; then
     CONSUL_ESM_VERSION=0.3.3
 fi
