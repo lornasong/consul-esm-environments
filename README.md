@@ -3,11 +3,13 @@ Spin up multiple environments with `consul` and `consul-esm` using Vagrant
 
 Modified version of [Vagrantfile from Consul Demo](https://github.com/hashicorp/consul/blob/master/demo/vagrant-cluster/Vagrantfile)
 
+Requires installing [VirtualBox](https://www.virtualbox.org) and [Vagrant](https://www.vagrantup.com)
+
 **Version**
 
 Use optional environment variables to specify versions of `consul` and `consul-esm`
 
-E.G.
+Example
 ```
 export CONSUL_VERSION=1.3.0
 export CONSUL_ESM_VERSION=0.3.1
@@ -36,7 +38,7 @@ To SSH into environment:
 ```
 vagrant ssh <hostname>
 ```
-e.g.
+Example:
 ```
 vagrant ssh n1
 ```
