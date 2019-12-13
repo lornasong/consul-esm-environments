@@ -1,2 +1,2 @@
 # consul-esm-environments
-Spin up multiple environments with Consul and Consul-ESM
+Spin up multiple environments with Consul and Consul-ESM using Vagrant
